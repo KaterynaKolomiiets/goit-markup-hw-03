@@ -11,28 +11,42 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,500;0,700;0,900;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Main page</title>
   </head>
   <body>
-
     <!-- HEADER -->
 
     <header class="header">
       <div class="container container-flex">
         <nav class="navigation">
-          <a class="link logo logo-main" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
+          <a class="link logo logo-main" href="./index.html"
+            ><span class="logo-accent">Web</span>Studio</a
+          >
           <ul class="menu ul-reset">
-            <li class="list-item menu-item"><a href="#" class="link menu-item-link active-link">Студия</a></li>
-            <li class="list-item menu-item"><a href="./portfolio.html" class="link menu-item-link">Портфолио</a></li>
-            <li class="list-item menu-item"><a href="#" class="link menu-item-link">Контакты</a></li>
+            <li class="list-item menu-item">
+              <a href="#" class="link menu-item-link active-link">Студия</a>
+            </li>
+            <li class="list-item menu-item">
+              <a href="./portfolio.html" class="link menu-item-link">Портфолио</a>
+            </li>
+            <li class="list-item menu-item">
+              <a href="#" class="link menu-item-link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <div class="contacts-header">
-          <a href="#" class="link contacts-header-item">info@devstudio.com</a>
-          <a href="#" class="link contacts-header-item">+38 096 111 11 11</a>
-        </div>
+        <ul class="contacts-header ul-reset">
+          <li class="list-item contacts-header-item">
+            <a href="#" class="link contacts-header-link">info@devstudio.com</a>
+          </li>
+          <li class="list-item contacts-header-item">
+            <a href="#" class="link contacts-header-link">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -41,10 +55,8 @@
 
       <section class="hero">
         <div class="container">
-          <div class="hero-content-holder">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button type="button" class="btn hero-btn">Заказать услугу</button>
-          </div>
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="btn hero-btn">Заказать услугу</button>
         </div>
       </section>
 
@@ -52,12 +64,14 @@
 
       <section class="section advantages">
         <div class="container">
-          <h2 class="section-header">Наши преимущества</h2>
+          <h2 class="section-header visually-hidden">Наши преимущества</h2>
           <!-- hidden title for webcrawler -->
           <ul class="ul-reset">
             <li class="advantages-item list-item">
               <h3 class="advantages-header">Внимание к деталям</h3>
-              <p class="advantages-text-content">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+              <p class="advantages-text-content">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
             </li>
             <li class="advantages-item list-item">
               <h3 class="advantages-header">Пунктуальность</h3>
@@ -73,7 +87,9 @@
             </li>
             <li class="advantages-item list-item">
               <h3 class="advantages-header">Современные технологии</h3>
-              <p class="advantages-text-content">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+              <p class="advantages-text-content">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
             </li>
           </ul>
         </div>
@@ -146,11 +162,13 @@
               </div>
             </li>
             <li class="list-item team-item">
-              <img src="./images/our_team_tarasov.jpg"
-              class="team-portrait" 
-              width="270"
-              height="260" 
-              alt="Николай Тарасов, маркетинг" />
+              <img
+                src="./images/our_team_tarasov.jpg"
+                class="team-portrait"
+                width="270"
+                height="260"
+                alt="Николай Тарасов, маркетинг"
+              />
               <div class="team-member">
                 <h3 class="team-member-name">Николай Тарасов</h3>
                 <p class="team-member-occupation">Marketing</p>
@@ -178,14 +196,19 @@
 
     <footer class="main-footer">
       <div class="container">
-        <a href="./index.html" class="link logo logo-reverse"><span class="logo-accent">Web</span>Studio</a>
+        <a href="./index.html" class="link logo logo-reverse"
+          ><span class="logo-accent">Web</span>Studio</a
+        >
         <address class="contact-address">
-          <a href="https://goo.gl/maps/qn2ygEqjheVna8wr9" class="link street-address">г. Киев, пр-т Леси Украинки, 26 </a><br />
-          <a href="#" class="link email-footer">info@example.com </a><br />
-          <a href="#" class="link phone-footer">+38 099 111 11 11</a><br />
+          <a
+            href="https://goo.gl/maps/qn2ygEqjheVna8wr9"
+            class="link contact-address-item street-address"
+            >г. Киев, пр-т Леси Украинки, 26
+          </a>
+          <a href="#" class="link contact-address-item email-footer">info@example.com </a>
+          <a href="#" class="link contact-address-item phone-footer">+38 099 111 11 11</a>
         </address>
       </div>
     </footer>
-    
   </body>
 </html>
