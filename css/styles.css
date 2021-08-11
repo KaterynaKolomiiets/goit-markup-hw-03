@@ -265,10 +265,11 @@ footer {
 }
 .contact-address-item{
     display: block;
+}
+.contact-address-item:not(:last-child){
     margin-bottom: 9px;
 }
-.street-address{
-    
+.street-address{ 
     color: var(--white-color);
 }
 .email-footer,
